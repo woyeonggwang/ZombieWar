@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66926ee4d23711946aa89a1b964743b3
+timeCreated: 1512766019
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Materials/Scene/BackgroundMobile.mat
+  uploadId: 513025

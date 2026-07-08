@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e70de6a15623744499bf326c13e310f0
+timeCreated: 1547238429
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/BrickImpact.prefab
+  uploadId: 513025

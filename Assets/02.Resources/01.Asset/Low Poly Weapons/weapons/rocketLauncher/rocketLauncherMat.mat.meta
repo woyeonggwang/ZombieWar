@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 912fd83949fa0a34f8279d956e181f0a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311983
+  packageName: Low Poly Weapons with stylized textures
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Weapons/weapons/rocketLauncher/rocketLauncherMat.mat
+  uploadId: 736089

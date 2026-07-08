@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a80afe9a05267047a0907c6154df021
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Shaders/FPSDistortionGlass.shader
+  uploadId: 513025

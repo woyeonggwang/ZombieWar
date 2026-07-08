@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fdac2b543efe1164abc20e40e85905c2
+timeCreated: 1547241946
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash1.prefab
+  uploadId: 513025

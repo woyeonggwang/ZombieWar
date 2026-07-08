@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 22b81bf1b22fe3e44ab916ed01617439
+timeCreated: 1546965804
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Scripts/FPS_Decal.cs
+  uploadId: 513025

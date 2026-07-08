@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af993b2cb55bf1344980759362af1e25
+timeCreated: 1512745374
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Models/Demo/Materials/M4A1_Sopmod_Body.mat
+  uploadId: 513025

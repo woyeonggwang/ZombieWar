@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5798ffb96ce8cef4c8fcf49995a7d192
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311983
+  packageName: Low Poly Weapons with stylized textures
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Weapons/weapons/grenadeLauncher/grenadeLauncherMat.mat
+  uploadId: 736089

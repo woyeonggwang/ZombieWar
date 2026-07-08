@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48778dd83d2f79c448274dc77d24ef2c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311983
+  packageName: Low Poly Weapons with stylized textures
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Weapons/weapons/shotgun/shotgunMat.mat
+  uploadId: 736089

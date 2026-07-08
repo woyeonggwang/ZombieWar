@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 378dc20440f4d724796368a0d8b5af3d
+timeCreated: 1546965695
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Shaders/FPS_UberDecal.shader
+  uploadId: 513025

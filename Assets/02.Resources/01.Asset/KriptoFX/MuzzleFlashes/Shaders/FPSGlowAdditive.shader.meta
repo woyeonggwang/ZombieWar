@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b91de4d65a1167d4abcd2aaf72067ccd
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Shaders/FPSGlowAdditive.shader
+  uploadId: 513025

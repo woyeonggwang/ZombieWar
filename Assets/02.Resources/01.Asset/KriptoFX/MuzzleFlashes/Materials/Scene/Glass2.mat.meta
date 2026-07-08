@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6518241a77af464c8de25f9e98f4d16
+timeCreated: 1512751962
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 57010
+  packageName: Impacts and Muzzle Flashes
+  packageVersion: 1.3.0a
+  assetPath: Assets/KriptoFX/MuzzleFlashes/Materials/Scene/Glass2.mat
+  uploadId: 513025

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a03da19c0ff44bb499002e47d790d55b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311983
+  packageName: Low Poly Weapons with stylized textures
+  packageVersion: 1.0
+  assetPath: Assets/Low Poly Weapons/weapons/handGrenade/handGrenadeMat.mat
+  uploadId: 736089
