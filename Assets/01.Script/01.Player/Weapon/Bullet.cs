@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     public Transform muzzle;
     public Color[] particleColor;
     public ParticleSystem crushParticle;
+    public float damage = 10f;                    // RL: 총알 데미지
+    [HideInInspector] public PlayerAgent shooter; // RL: 발사한 에이전트
     private void OnEnable()
     {
         if (muzzle == null)
@@ -16,11 +18,24 @@ public class Bullet : MonoBehaviour
         else
         {
             transform.GetComponent<Rigidbody>().AddRelativeForce(muzzle.forward * force);
+            Destroy(gameObject, 5f); // RL: 학습 중 총알이 쌍이지 않도록 수명 제한
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        // RL: 에이전트 피격 처리 (팀 전투용)
+        AgentHealth targetHealth = collision.collider.GetComponentInParent<AgentHealth>();
+        if (targetHealth != null)
+        {
+            if (shooter != null && targetHealth.owner == shooter) return; // 자기 자신 무시
+            GameObject fxTemp = Instantiate(crushParticle.gameObject);
+            fxTemp.GetComponent<ParticleSystemRenderer>().material.color = particleColor.Length > 1 ? particleColor[1] : Color.red;
+            fxTemp.transform.position = transform.position;
+            targetHealth.TakeDamage(damage, shooter);
+            Destroy(gameObject);
+            return;
+        }
         if (collision.collider.tag == "Wall")
         {
             GameObject temp = Instantiate(crushParticle.gameObject);

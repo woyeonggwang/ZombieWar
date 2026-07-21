@@ -33,6 +33,9 @@ public class Gun : GunSystem
                 efxTemp.transform.localScale = new Vector3(5, 5, 5);
                 GameObject bulletTemp = Instantiate(bulletObj);
                 bulletTemp.GetComponent<Bullet>().muzzle = muzzle;
+                Bullet bulletComp = bulletTemp.GetComponent<Bullet>();
+                bulletComp.shooter = owner;   // RL: 발사자 정보 전달
+                bulletComp.damage = damage;   // RL: 총기별 데미지 전달
                 bulletTemp.SetActive(true);
                 //bulletTemp.transform.parent = muzzle;
                 bulletTemp.transform.position = muzzle.position;
