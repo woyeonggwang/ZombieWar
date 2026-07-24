@@ -1,0 +1,66 @@
+{
+    "MazeBattle": {
+        "checkpoints": [
+            {
+                "steps": 4499955,
+                "file_path": "results\\MazeBattle01\\MazeBattle\\MazeBattle-4499955.onnx",
+                "reward": 0.47073797905069636,
+                "creation_time": 1784801634.1070168,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle01\\MazeBattle\\MazeBattle-4499955.pt"
+                ]
+            },
+            {
+                "steps": 4999989,
+                "file_path": "results\\MazeBattle01\\MazeBattle\\MazeBattle-4999989.onnx",
+                "reward": 0.6660135608864948,
+                "creation_time": 1784802173.880173,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle01\\MazeBattle\\MazeBattle-4999989.pt"
+                ]
+            },
+            {
+                "steps": 5499946,
+                "file_path": "results\\MazeBattle01\\MazeBattle\\MazeBattle-5499946.onnx",
+                "reward": 1.0746793704373496,
+                "creation_time": 1784802713.5388434,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle01\\MazeBattle\\MazeBattle-5499946.pt"
+                ]
+            },
+            {
+                "steps": 5999972,
+                "file_path": "results\\MazeBattle01\\MazeBattle\\MazeBattle-5999972.onnx",
+                "reward": 0.8666420331445791,
+                "creation_time": 1784803248.5870135,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle01\\MazeBattle\\MazeBattle-5999972.pt"
+                ]
+            },
+            {
+                "steps": 6139848,
+                "file_path": "results\\MazeBattle01\\MazeBattle\\MazeBattle-6139848.onnx",
+                "reward": 0.4946606623775819,
+                "creation_time": 1784803402.857788,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle01\\MazeBattle\\MazeBattle-6139848.pt"
+                ]
+            }
+        ],
+        "elo": 2162.1953063651604,
+        "final_checkpoint": {
+            "steps": 6139848,
+            "file_path": "results\\MazeBattle01\\MazeBattle.onnx",
+            "reward": 0.4946606623775819,
+            "creation_time": 1784803402.857788,
+            "auxillary_file_paths": [
+                "results\\MazeBattle01\\MazeBattle\\MazeBattle-6139848.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu128"
+    }
+}

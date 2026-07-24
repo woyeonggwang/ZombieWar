@@ -1,0 +1,57 @@
+{
+    "MazeBattle": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results\\MazeBattle\\MazeBattle\\MazeBattle-499988.onnx",
+                "reward": -6.654157392042023,
+                "creation_time": 1784735711.9443846,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle\\MazeBattle\\MazeBattle-499988.pt"
+                ]
+            },
+            {
+                "steps": 999159,
+                "file_path": "results\\MazeBattle\\MazeBattle\\MazeBattle-999159.onnx",
+                "reward": 1.548076766041609,
+                "creation_time": 1784736218.2723637,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle\\MazeBattle\\MazeBattle-999159.pt"
+                ]
+            },
+            {
+                "steps": 1499668,
+                "file_path": "results\\MazeBattle\\MazeBattle\\MazeBattle-1499668.onnx",
+                "reward": 2.271269211402306,
+                "creation_time": 1784736721.4680178,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle\\MazeBattle\\MazeBattle-1499668.pt"
+                ]
+            },
+            {
+                "steps": 1688891,
+                "file_path": "results\\MazeBattle\\MazeBattle\\MazeBattle-1688891.onnx",
+                "reward": -0.2194724745220608,
+                "creation_time": 1784736909.5696013,
+                "auxillary_file_paths": [
+                    "results\\MazeBattle\\MazeBattle\\MazeBattle-1688891.pt"
+                ]
+            }
+        ],
+        "elo": 1261.9812951846354,
+        "final_checkpoint": {
+            "steps": 1688891,
+            "file_path": "results\\MazeBattle\\MazeBattle.onnx",
+            "reward": -0.2194724745220608,
+            "creation_time": 1784736909.5696013,
+            "auxillary_file_paths": [
+                "results\\MazeBattle\\MazeBattle\\MazeBattle-1688891.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cu128"
+    }
+}

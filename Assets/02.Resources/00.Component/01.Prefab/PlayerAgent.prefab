@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
   m_BrainParameters:
-    VectorObservationSize: 13
+    VectorObservationSize: 24
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 3
@@ -360,7 +360,54 @@ MonoBehaviour:
   startGun: 0
   hitEnemyReward: 0.1
   hitTeammatePenalty: -0.2
+  wallShotPenalty: -0.01
+  centerSeekReward: 0.002
+  centerDistancePenalty: -0.01
+  centerPenaltyMaxDistance: 0
+  aimAlignReward: 0.004
+  aimAngleThreshold: 20
+  cohesionReward: 0.002
+  cohesionRadius: 18
+  cohesionMinDistance: 4
+  lowHpThreshold: 0.3
+  retreatReward: 0.004
+  recklessPenalty: -0.004
+  weaponChoiceReward: 0.003
+  pistolRange: 8
+  minigunEnemyCount: 2
+  strafeSpeedMultiplier: 0.75
+  backwardSpeedMultiplier: 0.5
+  tooCloseDistance: 6
+  tooClosePenalty: -0.002
+  longRangeDistance: 14
+  longRangeHitBonus: 0.05
+  exposurePenalty: -0.0015
+  firingMoveWindow: 0.25
+  firingForwardMultiplier: 0.4
+  firingLateralMultiplier: 0.7
+  useGunDebuffSpeed: 1
+  noEnemyTimeLimit: 8
+  noEnemyPenalty: -0.001
+  noEnemyPenaltyScaling: 1
+  noEnemyPenaltyMaxScale: 3
+  holdFireTimeLimit: 1
+  holdFirePenalty: -0.005
+  holdFireIgnoreReload: 1
+  stallTimeLimit: 3
+  stallMoveThreshold: 2
+  stallPenalty: -0.02
   fireCostPenalty: -0.0005
+  baseSeekReward: 0.001
+  outOfBoundsPenalty: -1
+  boundsMargin: 2
+  campTimeLimit: 3
+  campPenalty: -0.01
+  baseIntrudedPenalty: -0.02
+  baseRadius: 8
+  missPenalty: -0.01
+  spotEnemyReward: 0.5
+  spotFovHalfAngle: 45
+  spotRange: 30
   gun: {fileID: 0}
   manager: {fileID: 0}
   health: {fileID: 0}
@@ -406,11 +453,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Sensors.RayPerceptionSensorComponent3D
   m_SensorName: RayPerceptionSensor
-  m_DetectableTags: []
+  m_DetectableTags:
+  - BlueAgent
+  - RedAgent
+  - Wall
   m_RaysPerDirection: 6
   m_MaxRayDegrees: 80
   m_SphereCastRadius: 0.1
-  m_RayLength: 15
+  m_RayLength: 25
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291

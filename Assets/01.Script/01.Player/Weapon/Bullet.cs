@@ -28,7 +28,13 @@ public class Bullet : MonoBehaviour
         AgentHealth targetHealth = collision.collider.GetComponentInParent<AgentHealth>();
         if (targetHealth != null)
         {
-            if (shooter != null && targetHealth.owner == shooter) return; // 자기 자신 무시
+            // 자기 자신이 쏜 총알만 무시 (아군 피격/팀킬은 다시 활성화됨)
+            if (shooter != null && targetHealth.owner == shooter)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
             GameObject fxTemp = Instantiate(crushParticle.gameObject);
             fxTemp.GetComponent<ParticleSystemRenderer>().material.color = particleColor.Length > 1 ? particleColor[1] : Color.red;
             fxTemp.transform.position = transform.position;
@@ -38,6 +44,9 @@ public class Bullet : MonoBehaviour
         }
         if (collision.collider.tag == "Wall")
         {
+            // RL: 벽을 맞췄을 때 사수에게 감점 통보
+            if (shooter != null) shooter.NotifyWallShot();
+
             GameObject temp = Instantiate(crushParticle.gameObject);
             temp.GetComponent<ParticleSystemRenderer>().material.color = particleColor[0];
             temp.transform.position = transform.position;
