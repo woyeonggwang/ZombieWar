@@ -320,9 +320,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -578,9 +578,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -836,9 +836,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -1840,9 +1840,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -2384,9 +2384,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -3189,9 +3189,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -4372,9 +4372,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -5173,9 +5173,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -5543,9 +5543,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -5832,9 +5832,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -6121,9 +6121,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -6379,9 +6379,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -7205,9 +7205,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -7463,9 +7463,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -7721,9 +7721,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -8429,9 +8429,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -9821,9 +9821,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -11048,9 +11048,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -11418,9 +11418,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -12354,9 +12354,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -12612,9 +12612,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -13478,9 +13478,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -13736,9 +13736,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -14431,9 +14431,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -14781,9 +14781,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -16724,9 +16724,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -17540,9 +17540,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -17798,9 +17798,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -18540,9 +18540,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -18798,9 +18798,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -19748,9 +19748,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -20006,9 +20006,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -20646,9 +20646,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -21633,9 +21633,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -21981,9 +21981,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -22239,9 +22239,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -22651,9 +22651,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -23335,9 +23335,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -24162,9 +24162,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -25048,9 +25048,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -26287,9 +26287,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -27786,6 +27786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888446646}
   - component: {fileID: 888446645}
+  - component: {fileID: 888446647}
   m_Layer: 0
   m_Name: Arena_11
   m_TagString: Untagged
@@ -27903,6 +27904,21 @@ Transform:
   - {fileID: 913917070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888446647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888446644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd979ae81a9e844eb22588d2378ce28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActionDiagnostics
+  fileName: action_diag.log
+  summaryInterval: 3
+  detailDecisions: 50
 --- !u!1 &897487616
 GameObject:
   m_ObjectHideFlags: 0
@@ -28760,9 +28776,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -29899,9 +29915,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -30337,9 +30353,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -30800,9 +30816,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -31058,9 +31074,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -32589,9 +32605,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -32970,9 +32986,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -33922,9 +33938,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -34629,9 +34645,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -35210,9 +35226,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -35720,9 +35736,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -37176,9 +37192,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -37524,9 +37540,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -38344,9 +38360,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -38857,9 +38873,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -39339,9 +39355,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -39597,9 +39613,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -40382,9 +40398,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -41388,9 +41404,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -42515,9 +42531,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -43781,9 +43797,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -44482,9 +44498,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -45108,9 +45124,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -45366,9 +45382,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -46011,9 +46027,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -46390,9 +46406,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -47264,9 +47280,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -47584,9 +47600,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -47843,6 +47859,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567754795}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1568843198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568843201}
+  - component: {fileID: 1568843200}
+  - component: {fileID: 1568843199}
+  m_Layer: 0
+  m_Name: __MLDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1568843199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568843198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1aafff92b8219d49b75fe0443dbda84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObsCsvReplay
+  modelAsset: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  csvFileName: obs_PY.csv
+  backend: 512
+  maxRows: 500
+  stride: 1
+  printSamples: 12
+  actionMaskInputName: action_masks
+  actionMaskLength: 2
+  recurrentInputName: recurrent_in
+--- !u!114 &1568843200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568843198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf89f3be38c22ec4c80b01bed1d34510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObsActionRecorder
+  maxAgents: 3
+  pathFilter: 
+  maxRowsPerAgent: 3000
+  onlyOnDecisionSteps: 1
+  flushEvery: 50
+  fileNameOverride: 
+  forceTimeScale: 0
+--- !u!4 &1568843201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568843198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569585694
 GameObject:
   m_ObjectHideFlags: 0
@@ -48314,9 +48403,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -48572,9 +48661,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -49420,9 +49509,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -49913,9 +50002,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -51160,9 +51249,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -51510,9 +51599,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -51920,9 +52009,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -52380,9 +52469,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -53016,9 +53105,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -53994,9 +54083,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -54344,9 +54433,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -54826,9 +54915,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -55115,9 +55204,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -55373,9 +55462,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -56135,9 +56224,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -56424,9 +56513,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -57118,9 +57207,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -58824,9 +58913,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -59953,9 +60042,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -60211,9 +60300,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -60965,9 +61054,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -62292,9 +62381,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 1
   m_UseChildSensors: 1
@@ -62642,9 +62731,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -62900,9 +62989,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -63220,9 +63309,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -64013,9 +64102,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -64676,9 +64765,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
-  m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_Model: {fileID: 5022602860645237092, guid: 7978f702d0881734bb371376741f1f98, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 2
   m_BehaviorName: MazeBattle
   TeamId: 0
   m_UseChildSensors: 1
@@ -73212,3 +73301,4 @@ SceneRoots:
   - {fileID: 2000244734}
   - {fileID: 1257110236}
   - {fileID: 2016258803}
+  - {fileID: 1568843201}
