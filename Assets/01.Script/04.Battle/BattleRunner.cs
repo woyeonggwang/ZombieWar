@@ -86,6 +86,20 @@ public class BattleRunner : MonoBehaviour
     public float restartDelay = 2f;
     public bool logResults = true;
 
+    [Header("사람 플레이어")]
+    [Tooltip("전투에 참가시킬 사람 플레이어. Player 오브젝트의 HumanBattleUnit을 넣으세요. " +
+             "속할 팀은 HumanBattleUnit 쪽에서 선택합니다. 비워두면 AI끼리만 싸웁니다.")]
+    public HumanBattleUnit humanPlayer;
+
+    [Header("인원 구성")]
+    [Tooltip("참가시킬 Blue AI 수. -1이면 blueAgents 목록 전체. " +
+             "목록보다 적게 적으면 나머지 AI는 비활성화됩니다. " +
+             "예) 사람이 Blue이고 3대3을 원하면 2")]
+    public int blueAICount = -1;
+
+    [Tooltip("참가시킬 Red AI 수. -1이면 redAgents 목록 전체.")]
+    public int redAICount = -1;
+
     [Header("런타임 정보")]
     [SerializeField] private int _roundNumber;
     [SerializeField] private int _blueWins;
@@ -124,8 +138,26 @@ public class BattleRunner : MonoBehaviour
         {
             observationSource.enabled = false;  // 학습 전용 로직(그룹 보상) 차단
             observationSource.mazeGenerator = mazeGenerator;
-            observationSource.blueAgents = blueAgents;
-            observationSource.redAgents = redAgents;
+            // (신규) 사람 플레이어 초기화 (태그 / AgentHealth / 표식 PlayerAgent 연결)
+            if (humanPlayer != null) humanPlayer.EnsureSetup();
+
+            // (신규) 인원 구성 적용
+            TrimRoster(blueAgents, blueAICount);
+            TrimRoster(redAgents, redAICount);
+
+            // (신규) 사람 플레이어를 AI의 적/아군 탐색 목록에 포함시킵니다.
+            //        이게 없으면 AI가 플레이어에게 총을 쓰지 않습니다.
+            //        원본 blueAgents/redAgents에는 넣지 않습니다.
+            //        (SetupTeam이 사람을 AI로 오인해 Bind하지 않도록)
+            var mgrBlue = new List<PlayerAgent>(blueAgents);
+            var mgrRed = new List<PlayerAgent>(redAgents);
+            if (humanPlayer != null && humanPlayer.MarkerAgent != null)
+            {
+                if (humanPlayer.team == AgentTeam.Blue) mgrBlue.Add(humanPlayer.MarkerAgent);
+                else mgrRed.Add(humanPlayer.MarkerAgent);
+            }
+            observationSource.blueAgents = mgrBlue;
+            observationSource.redAgents = mgrRed;
             observationSource.blueSpawns = blueSpawns;
             observationSource.redSpawns = redSpawns;
             if (mazeGenerator != null)
@@ -143,6 +175,17 @@ public class BattleRunner : MonoBehaviour
 
         SetupTeam(blueAgents, _blue, AgentTeam.Blue);
         SetupTeam(redAgents, _red, AgentTeam.Red);
+
+        // (신규) 사람 플레이어를 팀 리스트에 등록
+        if (humanPlayer != null)
+        {
+            if (humanPlayer.team == AgentTeam.Blue) _blue.Add(humanPlayer);
+            else _red.Add(humanPlayer);
+            _all.Add(humanPlayer);
+        }
+
+        // (신규) 최종 인원수에 맞춰 스폰 지점 확보
+        EnsureSpawnCapacity();
     }
 
     private void SetupTeam(List<PlayerAgent> agents, List<BattleUnit> target, AgentTeam side)
@@ -441,6 +484,50 @@ public class BattleRunner : MonoBehaviour
         Vector3 c1 = mazeGenerator.GetCellWorldPosition(
             mazeGenerator.Width - 1, mazeGenerator.Depth - 1);
         return (c0 + c1) * 0.5f;
+    }
+
+    /// <summary>
+    /// (신규) 인원 구성 적용.
+    /// count가 0 이상이면 그 수만큼만 남기고 나머지 AI는 비활성화합니다.
+    /// -1이면 목록 전체를 그대로 씁니다.
+    ///
+    ///   예) 사람이 Blue일 때 3대3  -> blueAICount=2, redAICount=3
+    ///        사람이 Blue일 때 1대3  -> blueAICount=0, redAICount=3
+    ///        사람이 Blue일 때 4대3  -> blueAICount=3, redAICount=3
+    /// </summary>
+    private void TrimRoster(List<PlayerAgent> list, int count)
+    {
+        if (list == null || count < 0) return;
+        if (count > list.Count) count = list.Count;
+
+        for (int i = list.Count - 1; i >= count; i--)
+        {
+            var a = list[i];
+            if (a != null) a.gameObject.SetActive(false);
+            list.RemoveAt(i);
+        }
+    }
+
+    /// <summary>
+    /// (신규) 팀 인원수만큼 스폰 지점을 확보합니다.
+    /// 사람 플레이어가 추가되면 기존 스폰 수로는 모자라 두 유닛이 같은 칸에 겹칩니다.
+    /// 리스트 인스턴스를 그대로 쓰므로 매니저 쪽 참조도 같이 갱신됩니다.
+    /// </summary>
+    private void EnsureSpawnCapacity()
+    {
+        EnsureSpawnList(blueSpawns, _blue.Count, "BlueSpawn_auto_");
+        EnsureSpawnList(redSpawns, _red.Count, "RedSpawn_auto_");
+    }
+
+    private void EnsureSpawnList(List<Transform> list, int need, string prefix)
+    {
+        if (list == null) return;
+        while (list.Count < need)
+        {
+            var go = new GameObject(prefix + list.Count);
+            go.transform.SetParent(transform, false);
+            list.Add(go.transform);
+        }
     }
 
     private void OnDestroy()

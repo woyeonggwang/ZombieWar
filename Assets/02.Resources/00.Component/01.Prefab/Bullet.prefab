@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5552186819238531726}
   - component: {fileID: 7862668904999677830}
   - component: {fileID: 6524302973006038721}
+  - component: {fileID: 6405028242530871047}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -258,9 +259,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &6524302973006038721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,7 +274,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd649b108c8816458b2342616ed30ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 500
+  speed: 40
+  force: 2000
+  horizontalOnly: 1
+  lifeTime: 5
   muzzle: {fileID: 0}
   particleColor:
   - {r: 1, g: 0, b: 0, a: 1}
@@ -281,3 +285,19 @@ MonoBehaviour:
   crushParticle: {fileID: 3493386038671466158, guid: fbc21f2869daa28488dcb07dca895c0b, type: 3}
   damage: 10
   shooter: {fileID: 0}
+--- !u!114 &6405028242530871047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349376335852162947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75575d9fec09f4f47b0c678280ba64dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletGuard
+  destroyOnNonAgentHit: 0
+  blockIfSpawnedBehindWall: 1
+  spawnOverlapRadius: 0.06
+  forceContinuousCollision: 1

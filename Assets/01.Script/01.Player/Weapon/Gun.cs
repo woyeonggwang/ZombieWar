@@ -47,16 +47,19 @@ public class Gun : GunSystem
                     efxTemp.transform.localPosition = Vector3.zero;
                     efxTemp.transform.localEulerAngles = Vector3.zero; 
                     efxTemp.transform.localScale = new Vector3(5, 5, 5);
+                    // 총알은 "위치와 회전을 먼저 맞춘 뒤"에 활성화해야 합니다.
+                    // 예전에는 SetActive(true) 이후에 position을 대입해서,
+                    // Bullet.OnEnable이 도는 시점의 총알 위치가 아직 총구가 아니었습니다.
                     GameObject bulletTemp = Instantiate(bulletObj);
-                    bulletTemp.GetComponent<Bullet>().muzzle = muzzle;
                     Bullet bulletComp = bulletTemp.GetComponent<Bullet>();
+                    bulletComp.muzzle = muzzle;
                     bulletComp.shooter = owner;   // RL: 발사자 정보 전달
                     bulletComp.damage = damage;   // RL: 총기별 데미지 전달
-                    bulletTemp.SetActive(true);
-                    //bulletTemp.transform.parent = muzzle;
-                    bulletTemp.transform.position = muzzle.position;
-                    //bulletTemp.transform.eulerAngles =muzzle.eulerAngles;
+
+                    bulletTemp.transform.SetPositionAndRotation(muzzle.position, muzzle.rotation);
                     bulletTemp.transform.localScale = new Vector3(0.004f, 0.004f, 0.004f);
+
+                    bulletTemp.SetActive(true);
                 }
             try
             {

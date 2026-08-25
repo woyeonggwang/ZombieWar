@@ -7,7 +7,7 @@ public class PlayerSystem : MonoBehaviour
     public static event Action<Vector3> OnPlayerMoved;
     public float speed;
     public float rotationSpeed;
-    // ¨è ÀÚµ¿ »ı¼ºµÈ Input Action Å¬·¡½º
+    // ï¿½ï¿½ ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Input Action Å¬ï¿½ï¿½ï¿½ï¿½
     private InputAction _inputActions;
     private Vector2 directValue;
     public Transform playerModel;
@@ -19,14 +19,14 @@ public class PlayerSystem : MonoBehaviour
     private bool onAttack;
     private void Awake()
     {
-        _inputActions = new InputAction();  // Input ¾×¼Ç ÀÎ½ºÅÏ½º »ı¼º
+        _inputActions = new InputAction();  // Input ï¿½×¼ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½
     }
 
     private void OnEnable()
     {
         gunMode = GunType.Pistol;
         GenerateGun();
-        // ¾×¼Ç ¸Ê È°¼ºÈ­
+        // ï¿½×¼ï¿½ ï¿½ï¿½ È°ï¿½ï¿½È­
         _inputActions.Enable();
     }
 
@@ -39,7 +39,7 @@ public class PlayerSystem : MonoBehaviour
     private void Update()
     {
         Vector3 movement = new Vector3(directValue.x, 0, directValue.y) * speed * Time.deltaTime;
-        transform.Translate(movement, Space.World); // ¶Ç´Â Space.Self
+        transform.Translate(movement, Space.World); // ï¿½Ç´ï¿½ Space.Self
         Rotate();
         if (onAttack)
         {
@@ -49,14 +49,24 @@ public class PlayerSystem : MonoBehaviour
 
     private void Rotate()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        Plane plane = new Plane(Vector3.up, Vector3.zero);
+        if (playerModel == null) return;
+
+        var cam = Camera.main;
+        if (cam == null || Mouse.current == null) return;
+
+        Ray ray = cam.ScreenPointToRay(Mouse.current.position.ReadValue());
+        Plane plane = new Plane(Vector3.up, playerModel.position);
+
         float rayLength;
-        if (plane.Raycast(ray, out rayLength))
-        {
-            Vector3 lookDir = ray.GetPoint(rayLength); // ¸¶¿ì½ºÀÇ ¿ùµå ÁÂÇ¥
-            playerModel.LookAt(new Vector3(lookDir.x, playerModel.position.y, lookDir.z));
-        }
+        if (!plane.Raycast(ray, out rayLength)) return;
+
+        Vector3 hit = ray.GetPoint(rayLength);
+        Vector3 look = new Vector3(hit.x, playerModel.position.y, hit.z);
+
+        // ì»¤ì„œê°€ ëª¨ë¸ê³¼ ê±°ì˜ ê²¹ì¹˜ë©´ LookAtì´ íŠ€ì–´ ëª¨ë¸ì´ ë–¨ë¦½ë‹ˆë‹¤.
+        if ((look - playerModel.position).sqrMagnitude < 0.0001f) return;
+
+        playerModel.LookAt(look);
     }
     private void GenerateGun()
     {
@@ -89,21 +99,21 @@ public class PlayerSystem : MonoBehaviour
         Destroy(gun.gameObject);
         gunMode = GunType.Pistol;
         GenerateGun();
-        Debug.Log($"¼±ÅÃµÈ ÃÑ ¸ğµå: {gunMode}");
+        Debug.Log($"ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½: {gunMode}");
     }
     public void OnSelectRifle(InputValue value)
     {
         Destroy(gun.gameObject);
         gunMode = GunType.AssaultRifle;
         GenerateGun();
-        Debug.Log($"¼±ÅÃµÈ ÃÑ ¸ğµå: {gunMode}");
+        Debug.Log($"ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½: {gunMode}");
     }
     public void OnSelectMinigun(InputValue value)
     {
         Destroy(gun.gameObject);
         gunMode = GunType.MiniGun;
         GenerateGun();
-        Debug.Log($"¼±ÅÃµÈ ÃÑ ¸ğµå: {gunMode}");
+        Debug.Log($"ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½: {gunMode}");
     }
     private void OnAttack(InputValue value)
     {
