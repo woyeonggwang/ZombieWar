@@ -134,7 +134,11 @@ public class PlayerAgent : Agent
 
 
 
-    [HideInInspector] public GunSystem gun;
+        [Header("1인칭 수동 조작 (Heuristic 전용)")]
+    [Tooltip("마우스 좌우 감도. 커질수록 빠르게 돌지만 회전은 rotationSpeed에서 최종 제한됨")]
+    public float mouseSensitivity = 0.15f;
+
+[HideInInspector] public GunSystem gun;
     [HideInInspector] public TeamBattleManager manager;
     [HideInInspector] public AgentHealth health;
 
@@ -529,18 +533,37 @@ public class PlayerAgent : Agent
     }
 
     /// <summary> 노트북에서 수동 테스트용: WASD 이동, Q/E 회전, Space 발사 </summary>
+    /// <summary> 수동 조작: WASD 이동, 마우스 좌우 회전(Q/E 대체 가능), 마우스 좌클릭/Space 발사 </summary>
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        var kb = Keyboard.current;
-        if (kb == null) return;
-
         var c = actionsOut.ContinuousActions;
-        c[0] = (kb.dKey.isPressed ? 1f : 0f) - (kb.aKey.isPressed ? 1f : 0f);
-        c[1] = (kb.wKey.isPressed ? 1f : 0f) - (kb.sKey.isPressed ? 1f : 0f);
-        c[2] = (kb.eKey.isPressed ? 1f : 0f) - (kb.qKey.isPressed ? 1f : 0f);
-
         var d = actionsOut.DiscreteActions;
-        d[0] = kb.spaceKey.isPressed ? 1 : 0;
+
+        float moveX = 0f, moveZ = 0f, yaw = 0f;
+        bool fire = false;
+
+        var kb = Keyboard.current;
+        if (kb != null)
+        {
+            moveX = (kb.dKey.isPressed ? 1f : 0f) - (kb.aKey.isPressed ? 1f : 0f);
+            moveZ = (kb.wKey.isPressed ? 1f : 0f) - (kb.sKey.isPressed ? 1f : 0f);
+            yaw   = (kb.eKey.isPressed ? 1f : 0f) - (kb.qKey.isPressed ? 1f : 0f); // 마우스 미사용 시 대체
+            fire  = kb.spaceKey.isPressed;
+        }
+
+        // 마우스룩: 좌우 이동량을 회전 액션(-1~1)으로 매핑
+        var mouse = Mouse.current;
+        if (mouse != null && Cursor.lockState == CursorLockMode.Locked)
+        {
+            float mx = mouse.delta.ReadValue().x * mouseSensitivity;
+            if (Mathf.Abs(mx) > Mathf.Abs(yaw)) yaw = Mathf.Clamp(mx, -1f, 1f);
+            if (mouse.leftButton.isPressed) fire = true;
+        }
+
+        c[0] = moveX;
+        c[1] = moveZ;
+        c[2] = yaw;
+        d[0] = fire ? 1 : 0;
     }
 
     /// <summary> AgentHealth가 호출: 내 총알이 누군가를 맞췄을 때 </summary>
