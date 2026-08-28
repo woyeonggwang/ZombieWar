@@ -123,9 +123,14 @@ private InputAction _inputActions;
 
     private void OnEnable()
     {
-        gunMode = GunType.Pistol;
-        GenerateGun();
-        // �׼� �� Ȱ��ȭ
+        if (_health == null) _health = GetComponent<AgentHealth>();
+        if (_health != null)
+        {
+            _health.OnDeath -= HandlePlayerDeath;
+            _health.OnDeath += HandlePlayerDeath;   // 사망 시 총 초기화
+        }
+
+        ResetWeapon();          // 중복 생성 방지 + 기본 총으로 시작
         _inputActions.Enable();
     }
 
@@ -179,9 +184,18 @@ private InputAction _inputActions;
     }
     private void GenerateGun()
     {
+        // 남아있는 총이 있으면 먼저 제거 (사망/재생성 시 총이 겹치는 것 방지)
+        if (gunPos != null)
+        {
+            var leftovers = gunPos.GetComponentsInChildren<GunSystem>(true);
+            for (int i = 0; i < leftovers.Length; i++)
+                if (leftovers[i] != null) Destroy(leftovers[i].gameObject);
+        }
+        gun = null;
+
         for (int i = 0; i < gunPrefabs.Length; i++)
         {
-            if (gunPrefabs[i].type == gunMode)
+            if (gunPrefabs[i] != null && gunPrefabs[i].type == gunMode)
             {
                 GameObject gunTemp = Instantiate(gunPrefabs[i].gameObject);
                 gunTemp.transform.parent = gunPos;
@@ -189,10 +203,31 @@ private InputAction _inputActions;
                 gunTemp.transform.localScale = new Vector3(0.2f, 0.4f, 0.2f);
                 gunTemp.transform.localEulerAngles = Vector3.zero;
                 gun = gunTemp.GetComponent<GunSystem>();
+                break;
             }
         }
     }
-    private void OnMove(InputValue value)
+        private AgentHealth _health;
+
+    /// <summary> 들고 있던 총을 버리고 기본 총(Pistol)으로 되돌립니다. </summary>
+    public void ResetWeapon()
+    {
+        gunMode = GunType.Pistol;
+        GenerateGun();
+    }
+
+    private void HandlePlayerDeath(AgentHealth victim, PlayerAgent killer)
+    {
+        ResetWeapon();
+    }
+
+    private void OnDisable()
+    {
+        if (_health != null) _health.OnDeath -= HandlePlayerDeath;
+        if (_inputActions != null) _inputActions.Disable();
+    }
+
+private void OnMove(InputValue value)
     {
         Vector2 input = value.Get<Vector2>();
         directValue = input;
@@ -205,24 +240,18 @@ private InputAction _inputActions;
 
     public void OnSelectPistol(InputValue value)
     {
-        Destroy(gun.gameObject);
         gunMode = GunType.Pistol;
         GenerateGun();
-        Debug.Log($"���õ� �� ���: {gunMode}");
     }
     public void OnSelectRifle(InputValue value)
     {
-        Destroy(gun.gameObject);
         gunMode = GunType.AssaultRifle;
         GenerateGun();
-        Debug.Log($"���õ� �� ���: {gunMode}");
     }
     public void OnSelectMinigun(InputValue value)
     {
-        Destroy(gun.gameObject);
         gunMode = GunType.MiniGun;
         GenerateGun();
-        Debug.Log($"���õ� �� ���: {gunMode}");
     }
     private void OnAttack(InputValue value)
     {
